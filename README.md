@@ -26,73 +26,77 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github-repository](https://github.com/shanda0409/qr-code-component-frontend-mentor-challenge-1.git)
+- Live Site URL: [github-live-url](https://shanda0409.github.io/qr-code-component-frontend-mentor-challenge-1/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- CSS Flexbox
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+It's really a great feeling when I got satisfied with my code's output. Specially CSS properties. And frankly speaking it was really tough to match the output as provided display image. But I would mention the rem, px things in CSS. Moreover, I didn't use github to deploy my any projects. Honestly, this is so cool experience.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Here are a few lines which I really found useful for my future use in CSS. Please let me know if I can improve my knowledge here.
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1.2rem;
+  max-width: 16.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 0.65rem;
+  max-height: 18rem;
+  max-width: 18rem;
+}
+
+h1 {
+  margin-top: 1rem;
+  margin-bottom: 0.9rem;
+  font-size: 1.375rem;
+  line-height: 1.8rem;
+  font-weight: 700;
+  font-stretch: extra-expanded;
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+}
+
+p {
+  font-size: 0.99rem;
+  padding: 2px;
+  margin-bottom: 1.2rem;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I want to create my own project where QR code component will be useful. If I briefly share then it might be any QR Generator or something alike where I can use this template.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Finger crossed for that. I will happily share that project as well.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me for learning CSS Flex. I really liked this pattern and will use it going forward.
+- [W3 School](https://www.w3schools.com/css/css3_flexbox.asp) - This is an amazing platform (though a few say this is old but I prefer) to learn from scratch. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@shanda0409](https://www.frontendmentor.io/profile/shanda0409)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I was stuck in a few place and I took help from another completed project. Special thanks to that code buddy.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+(https://github.com/Arekkusu17/QR-code-component-challenge)
